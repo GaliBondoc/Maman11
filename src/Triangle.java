@@ -46,4 +46,9 @@ public class Triangle {
             System.out.println("The given three sides don't represent a triangle");
 
     } // end of method main
-} //end of class Triangle
+ //end of class Triangle
+
+/**
+ * This is a test to see if it updates in github
+ */
+System.out.println("Hi");}
