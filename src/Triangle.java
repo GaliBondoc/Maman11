@@ -31,24 +31,18 @@ public class Triangle {
          @ s - the semiperimeter for Heron's formula
          */
 
-       // int trianglePerimeter = a + b + c;
+        // int trianglePerimeter = a + b + c;
         double trianglePerimeter = a + b + c;
-       // final int s = trianglePerimeter / 2;
+        // final int s = trianglePerimeter / 2;
         final double s = trianglePerimeter / 2;
-        final double triangleArea = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+        final double triangleArea = Math.sqrt(s * (s - a) * (s - b) * (s - c));
 
         // Checking for legal input and printing required output
-        if (a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c >a) {
+        if (a > 0 && b > 0 && c > 0 && a + b > c && a + c > b && b + c > a) {
             System.out.println("The perimeter of the triangle is: " + trianglePerimeter);
             System.out.println("The area of the triangle is: " + triangleArea);
-        }
-        else
+        } else
             System.out.println("The given three sides don't represent a triangle");
 
     } // end of method main
- //end of class Triangle
-
-/**
- * This is a test to see if it updates in github
- */
-System.out.println("Hi");}
+} //end of class Triangle
